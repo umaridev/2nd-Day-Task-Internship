@@ -1,0 +1,40 @@
+
+/* box-sizzing */
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+  padding: 40px;
+  background-color: #f8f6f7;
+}
+h1{
+    background-color: aquamarine;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* margin visible outside the box */
+
+.outerbox{
+    background-color:  #500ae7;;
+    margin: 40px auto;
+    padding: 50px;
+}
+/* border visible around content and padding of box */
+.borderbox{
+    border: 5px solid #070707;
+}
+/* padding visible around the the content */
+.paddingbox {
+  padding: 50px;
+  background-color: #05b4ee;
+}
+/* content visible inside the box */
+.contentbox {
+  background-color: #ff0f8f;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px dashed #e8820d;
+}

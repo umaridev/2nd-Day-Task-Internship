@@ -1,0 +1,38 @@
+#blog-header{
+    background-color: wheat;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+
+}
+.blog-post{
+    background-color: rgb(143, 173, 198);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.blog-post:hover{
+    background-color: rgb(128, 49, 104);
+}
+.blog-title{
+    color: #333;
+    font-size: 24px;
+}
+.blog-meta{
+    color: #673990;
+    font-size: 15px;
+}
+.blog-post:nth-child(2){
+    border-left: 5px solid black;
+}
+.blog-post:nth-child(1){
+    border-left: 5px solid rgb(85, 21, 204);
+}
+.blog-post:nth-child(3){
+    border-left: 5px solid rgb(14, 214, 7);
+}
